@@ -42,8 +42,8 @@
 -- GROUP BY p.name;
 
 --8.
--- SELECT DISTINCT ON (name) tech FROM tech
---     INNER JOIN project_uses_tech pt ON tech.id = pt.tech_id;
+SELECT DISTINCT ON (name) tech FROM tech
+    INNER JOIN project_uses_tech pt ON tech.id = pt.tech_id;
 
 
 --9.
